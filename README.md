@@ -1,11 +1,11 @@
 <p align="center"><a href="https://www.npmjs.com/package/agiles-utils" target="_blank"><img width="100" src="http://outt0i9l8.bkt.clouddn.com/chameleon.png"></a></p>
 
 <p align="center">
-    <a arget="_blank"><img src="https://img.shields.io/badge/version-0.0.1-blue.svg?style=flat" alt="Build Status"></a>
-    <a arget="_blank"><img src="https://img.shields.io/travis/rust-lang/rust.svg" alt="Build Status"></a>
-    <a arget="_blank"><img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="Build Status"></a>
-    <a arget="_blank"><img src="https://img.shields.io/npm/v/npm.svg" alt="Version"></a>
-    <a arget="_blank"><img src="https://img.shields.io/badge/dependency-lodash-ff69b4.svg" alt="Version"></a>
+    <a target="_blank"><img src="https://img.shields.io/badge/version-0.0.1-blue.svg?style=flat" alt="Build Status"></a>
+    <a target="_blank"><img src="https://img.shields.io/travis/rust-lang/rust.svg" alt="Build Status"></a>
+    <a target="_blank"><img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="Build Status"></a>
+    <a target="_blank"><img src="https://img.shields.io/npm/v/npm.svg" alt="Version"></a>
+    <a target="_blank"><img src="https://img.shields.io/badge/dependency-lodash-ff69b4.svg" alt="Version"></a>
 </p>
 
 <h2 align="center">agiles-utils</h2>
@@ -32,12 +32,12 @@ _.fen2yuan(2000)
 </template>
 
 <script>
-import _ from 'agiles-utils'
+import { fen2yuan } from 'agiles-utils'
 
 export default {
   data () {
     return {
-      fen2yuan: _.fen2yuan
+      fen2yuan
     }
   }
 }
