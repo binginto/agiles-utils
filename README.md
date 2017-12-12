@@ -19,7 +19,7 @@ npm install agiles-utils -S
 
 #### Use
 ```js
-import _ from 'agiles-utils'
+import _ from 'agiles-utils'
 _.fen2yuan(2000)
 ```
 
