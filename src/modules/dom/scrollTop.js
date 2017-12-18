@@ -9,4 +9,4 @@ function scrollTop () {
   return (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop
 }
 
-module.exports = pinyinStart
+module.exports = scrollTop

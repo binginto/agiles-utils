@@ -9,6 +9,7 @@ const unique = require('./modules/array/unique')
 
 const hasEmpty = require('./modules/lang/hasEmpty')
 
+const fontSize = require('./modules/dom/fontSize')
 const scrollTop = require('./modules/dom/scrollTop')
 
 const sleep = require('./modules/time/sleep')
@@ -29,6 +30,7 @@ module.exports = lodash.merge(lodash, {
 
   hasEmpty,
 
+  fontSize,
   scrollTop,
 
   sleep,
