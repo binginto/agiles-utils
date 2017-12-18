@@ -1,21 +1,21 @@
 {
-  "name": "agiles-utils",
-  "version": "0.0.1",
-  "description": "ChuxinFE - agiles-utils",
+  "name": "agile-utils",
+  "version": "0.0.2",
+  "description": "ChuxinFE - agile-utils",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChuxinFE/agiles-utils.git"
+    "url": "git+https://github.com/ChuxinFE/agile-utils.git"
   },
   "author": "ChuxinFE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChuxinFE/agiles-utils/issues"
+    "url": "https://github.com/ChuxinFE/agile-utils/issues"
   },
-  "homepage": "https://github.com/ChuxinFE/agiles-utils#readme",
+  "homepage": "https://github.com/ChuxinFE/agile-utils#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -25,6 +25,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.19.2",
     "npm": "^5.5.1",
+    "pinyin": "^2.8.3",
     "webpack": "^3.8.1"
   }
 }

@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.npmjs.com/package/agiles-utils" target="_blank"><img width="100" src="http://outt0i9l8.bkt.clouddn.com/chameleon.png"></a></p>
+<p align="center"><a href="https://www.npmjs.com/package/agile-utils" target="_blank"><img width="100" src="http://outt0i9l8.bkt.clouddn.com/chameleon.png"></a></p>
 
 <p align="center">
     <a target="_blank"><img src="https://img.shields.io/badge/version-0.0.1-blue.svg?style=flat" alt="Build Status"></a>
@@ -8,18 +8,18 @@
     <a target="_blank"><img src="https://img.shields.io/badge/dependency-lodash-ff69b4.svg" alt="Version"></a>
 </p>
 
-<h2 align="center">agiles-utils</h2>
+<h2 align="center">agile-utils</h2>
 
 ### Quick start
 
 #### Install
 ```
-npm install agiles-utils -S
+npm install agile-utils -S
 ```
 
 #### Use
 ```js
-import _ from 'agiles-utils'
+import _ from 'agile-utils'
 _.fen2yuan(2000)
 ```
 
@@ -32,7 +32,7 @@ _.fen2yuan(2000)
 </template>
 
 <script>
-import { fen2yuan } from 'agiles-utils'
+import { fen2yuan } from 'agile-utils'
 
 export default {
   data () {
